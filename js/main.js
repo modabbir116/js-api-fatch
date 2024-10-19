@@ -21,7 +21,7 @@ async function getData(cityName){
 
     country.innerHTML = `${result.location.country}`
     city.innerHTML = `${result.location.name}`
-    region.innerHTML = `${result.location.region='Islam'}`
+    region.innerHTML = `${result.location.region}`
     temperature.innerHTML = `${result.current.temp_c}`
     condition.innerHTML = `${result.current.condition.text}`
     localtime.innerHTML = `${result.location.localtime}`
